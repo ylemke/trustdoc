@@ -5,7 +5,13 @@
 
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Lazy-initialize Resend so module load doesn't throw at build time when env vars are absent
+let _resend: Resend | null = null;
+function getResend(): Resend | null {
+  if (!process.env.RESEND_API_KEY) return null;
+  if (!_resend) _resend = new Resend(process.env.RESEND_API_KEY);
+  return _resend;
+}
 
 const EMAIL_FROM_ADDRESS = process.env.EMAIL_FROM || 'noreply@trustdoc.dev';
 const EMAIL_FROM_NAME = process.env.EMAIL_FROM_NAME || 'TrustDoc Compliance';
@@ -47,6 +53,9 @@ export function notifyNewDecision(payload: DecisionEmailPayload): void {
     payload.decision === 'APPROVE' ? 'Approved' :
     payload.decision === 'OVERRIDE' ? 'Overridden' :
     'Escalated';
+
+  const resend = getResend();
+  if (!resend) { console.warn('[email] RESEND_API_KEY not configured, skipping notification'); return; }
 
   resend.emails.send({
     from: EMAIL_FROM,
@@ -120,6 +129,9 @@ export function notifyDecisionSealed(payload: SealedEmailPayload): void {
     payload.decision === 'APPROVE' ? 'Approved' :
     payload.decision === 'OVERRIDE' ? 'Overridden' :
     'Escalated';
+
+  const resend = getResend();
+  if (!resend) { console.warn('[email] RESEND_API_KEY not configured, skipping notification'); return; }
 
   resend.emails.send({
     from: EMAIL_FROM,
