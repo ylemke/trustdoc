@@ -1,0 +1,766 @@
+
+> trustdoc-review-ui@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 10524, using available port 3001 instead.
+   ▲ Next.js 15.5.13
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.129:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.9s
+ ○ Compiling / ...
+ ⨯ ./app/globals.css:1:1
+Syntax error: C:\Users\yasmi\Documents\TrustDocc\review-ui\app\globals.css The `border-border` class does not exist. If `border-border` is a custom class, make sure it is defined within a `@layer` directive.
+
+[1m[31m>[39m[22m[90m 1 | [39m[36m@tailwind[39m base[33m;[39m
+ [90m   | [39m[1m[31m^[39m[22m
+ [90m 2 | [39m[36m@tailwind[39m components[33m;[39m
+ [90m 3 | [39m[36m@tailwind[39m utilities[33m;[39m
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[10].use[2]!C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[10].use[3]!C:\Users\yasmi\Documents\TrustDocc\review-ui\app\globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ GET / 500 in 11341ms
+ ⨯ ./app/globals.css:1:1
+Syntax error: C:\Users\yasmi\Documents\TrustDocc\review-ui\app\globals.css The `border-border` class does not exist. If `border-border` is a custom class, make sure it is defined within a `@layer` directive.
+
+[1m[31m>[39m[22m[90m 1 | [39m[36m@tailwind[39m base[33m;[39m
+ [90m   | [39m[1m[31m^[39m[22m
+ [90m 2 | [39m[36m@tailwind[39m components[33m;[39m
+ [90m 3 | [39m[36m@tailwind[39m utilities[33m;[39m
+ GET / 500 in 15668ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ✓ Compiled /_error in 703ms (1128 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 36ms
+ GET / 200 in 98ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1419ms (1125 modules)
+ GET /dashboard 200 in 1821ms
+ GET /dashboard 200 in 84ms
+ ○ Compiling /review/[id] ...
+ ✓ Compiled /review/[id] in 4.1s (1246 modules)
+ GET /review/doc_001 200 in 5430ms
+ GET /review/doc_001 200 in 98ms
+ ✓ Compiled in 2.1s (1233 modules)
+ GET /review/doc_001 200 in 282ms
+ GET /dashboard 200 in 102ms
+ GET /review/doc_001 200 in 93ms
+ ○ Compiling /confirmation/[id] ...
+ ✓ Compiled /confirmation/[id] in 1206ms (1226 modules)
+ GET /confirmation/hdr_doc_001_1773931721008 200 in 2303ms
+ GET /confirmation/hdr_doc_001_1773931723132 200 in 188ms
+ GET /dashboard 200 in 83ms
+ ○ Compiling /audit ...
+ ✓ Compiled /audit in 1043ms (1233 modules)
+ GET /audit 200 in 1213ms
+ GET /dashboard 200 in 89ms
+ GET /review/doc_009 200 in 139ms
+ GET /review/doc_013 200 in 84ms
+ GET /review/doc_001 200 in 85ms
+ GET /audit 200 in 77ms
+ GET /dashboard 200 in 73ms
+ GET /review/doc_002 200 in 83ms
+ GET /confirmation/hdr_doc_002_1773931871025 200 in 104ms
+ GET /audit 200 in 74ms
+ GET /audit 200 in 80ms
+ ✓ Compiled in 861ms (1247 modules)
+ GET /audit 200 in 287ms
+ ✓ Compiled in 483ms (1247 modules)
+ GET /audit 200 in 145ms
+ ✓ Compiled in 458ms (1247 modules)
+ GET /audit 200 in 116ms
+ ✓ Compiled in 416ms (1247 modules)
+ GET /audit 200 in 93ms
+ ✓ Compiled in 518ms (1247 modules)
+ GET /audit 200 in 71ms
+ ✓ Compiled in 643ms (1247 modules)
+ GET /audit 200 in 121ms
+ ✓ Compiled in 850ms (1247 modules)
+ GET /audit 200 in 114ms
+ ✓ Compiled in 1299ms (1247 modules)
+ GET /audit 200 in 199ms
+Audit Trail Debug: {
+  totalHdrs: 0,
+  filteredHdrs: 0,
+  currentFilter: 'all',
+  searchQuery: '',
+  decisions: []
+}
+ GET /audit 200 in 575ms
+ GET /dashboard 200 in 84ms
+ GET /review/doc_003 200 in 122ms
+ GET /review/doc_003 200 in 491ms
+ ✓ Compiled in 997ms (1247 modules)
+ GET /review/doc_003 200 in 159ms
+ ✓ Compiled in 506ms (1247 modules)
+ GET /review/doc_003 200 in 115ms
+ ✓ Compiled in 421ms (1247 modules)
+ GET /review/doc_003 200 in 104ms
+ ✓ Compiled in 458ms (1247 modules)
+ GET /review/doc_003 200 in 90ms
+ ✓ Compiled in 702ms (1247 modules)
+ GET /review/doc_003 200 in 83ms
+ GET /dashboard 200 in 659ms
+ GET /review/doc_003 200 in 91ms
+ GET /review/doc_003 200 in 430ms
+ GET / 200 in 191ms
+ GET /dashboard 200 in 116ms
+ GET /review/doc_003 200 in 85ms
+ ✓ Compiled in 882ms (1247 modules)
+ GET /review/doc_003 200 in 108ms
+ ✓ Compiled in 2s (1247 modules)
+ GET /review/doc_003 200 in 211ms
+ GET /review/doc_003 200 in 884ms
+ ✓ Compiled in 430ms (1247 modules)
+ GET /review/doc_003 200 in 152ms
+ GET /review/doc_003 200 in 89ms
+ GET /review/doc_003 200 in 392ms
+ GET /dashboard 200 in 91ms
+ GET /review/doc_003 200 in 97ms
+'wmic' is not recognized as an internal or external command,
+operable program or batch file.
+ ✓ Compiled in 865ms (1247 modules)
+ GET /review/doc_003 200 in 177ms
+ GET /review/doc_003 200 in 57ms
+ GET /dashboard 200 in 88ms
+ GET /dashboard 200 in 60ms
+ GET /review/doc_003 200 in 77ms
+ ✓ Compiled in 615ms (1233 modules)
+ ✓ Compiled in 586ms (1247 modules)
+ GET /review/doc_003 200 in 142ms
+ GET /review/doc_003 200 in 52ms
+ GET /dashboard 200 in 91ms
+ GET /review/doc_003 200 in 72ms
+ GET /review/doc_003 200 in 630ms
+ GET /dashboard 200 in 84ms
+ GET /review/doc_004 200 in 66ms
+ GET /confirmation/hdr_doc_004_1773933176342 200 in 99ms
+ GET /dashboard 200 in 53ms
+ ✓ Compiled in 801ms (1233 modules)
+ ✓ Compiled in 904ms (1247 modules)
+ GET /dashboard 200 in 160ms
+ GET /review/doc_003 200 in 159ms
+ GET /dashboard 200 in 89ms
+ GET /dashboard 200 in 570ms
+ GET /review/doc_003 200 in 98ms
+ GET /confirmation/hdr_doc_003_1773933454759 200 in 104ms
+ GET /dashboard 200 in 47ms
+ GET /dashboard 200 in 266ms
+ GET /review/doc_005 200 in 77ms
+ GET /audit 200 in 103ms
+ ✓ Compiled in 562ms (1233 modules)
+ ✓ Compiled in 424ms (1233 modules)
+ ✓ Compiled in 937ms (1233 modules)
+ ✓ Compiled in 1161ms (1247 modules)
+ GET /audit 200 in 559ms
+ GET /review/doc_003 200 in 552ms
+ ✓ Compiled in 1070ms (1247 modules)
+ GET /audit 200 in 343ms
+ GET /review/doc_003 200 in 338ms
+ ✓ Compiled in 1405ms (1247 modules)
+ GET /audit 200 in 393ms
+ GET /review/doc_003 200 in 383ms
+ ✓ Compiled in 1711ms (1247 modules)
+ GET /audit 200 in 231ms
+ ✓ Compiled in 2.5s (1247 modules)
+ GET /audit 200 in 398ms
+ ✓ Compiled in 1189ms (1247 modules)
+ GET /audit 200 in 223ms
+ ✓ Compiled in 839ms (1247 modules)
+ GET /audit 200 in 75ms
+ ✓ Compiled in 1162ms (1247 modules)
+ GET /audit 200 in 207ms
+ ✓ Compiled in 1655ms (1247 modules)
+ GET /audit 200 in 236ms
+ ✓ Compiled in 1452ms (1247 modules)
+ GET /audit 200 in 234ms
+ ✓ Compiled in 291ms (503 modules)
+ GET /audit 200 in 152ms
+ ✓ Compiled in 1092ms (1247 modules)
+ GET /audit 200 in 182ms
+ ✓ Compiled in 1712ms (1249 modules)
+ GET /audit 200 in 255ms
+ GET /dashboard 200 in 82ms
+ GET /dashboard 200 in 592ms
+ GET /review/doc_005 200 in 112ms
+ GET /dashboard 200 in 242ms
+ GET /review/doc_005 200 in 78ms
+ GET /dashboard 200 in 324ms
+ ✓ Compiled in 882ms (1249 modules)
+ GET /dashboard 200 in 111ms
+ ✓ Compiled in 1790ms (1249 modules)
+ GET /dashboard 200 in 413ms
+ ✓ Compiled in 435ms (1249 modules)
+ GET /dashboard 200 in 99ms
+ ✓ Compiled in 749ms (1249 modules)
+ GET /dashboard 200 in 66ms
+ ✓ Compiled in 474ms (1249 modules)
+ GET /dashboard 200 in 58ms
+ ✓ Compiled in 621ms (1249 modules)
+ GET /dashboard 200 in 115ms
+ ✓ Compiled in 537ms (1249 modules)
+ GET /dashboard 200 in 69ms
+ ✓ Compiled in 505ms (1249 modules)
+ GET /dashboard 200 in 111ms
+ ✓ Compiled in 649ms (1249 modules)
+ GET /dashboard 200 in 114ms
+ ✓ Compiled in 607ms (1249 modules)
+ GET /dashboard 200 in 83ms
+ ✓ Compiled in 603ms (1249 modules)
+ GET /dashboard 200 in 134ms
+ ✓ Compiled in 620ms (1249 modules)
+ GET /dashboard 200 in 95ms
+ ✓ Compiled in 536ms (1249 modules)
+ GET /dashboard 200 in 74ms
+ ✓ Compiled in 464ms (1249 modules)
+ GET /dashboard 200 in 64ms
+ GET /dashboard 200 in 575ms
+ GET /review/doc_011 200 in 113ms
+ GET /review/doc_005 200 in 86ms
+ GET /confirmation/hdr_doc_005_1773934565339 200 in 161ms
+ GET /dashboard 200 in 67ms
+ GET /dashboard 200 in 296ms
+ GET /review/doc_006 200 in 78ms
+ ✓ Compiled in 4.4s (1249 modules)
+ GET /dashboard 200 in 2747ms
+ GET /dashboard 200 in 110ms
+ GET /dashboard 200 in 519ms
+ ✓ Compiled in 450ms (1249 modules)
+ GET /dashboard 200 in 152ms
+ ✓ Compiled in 617ms (1249 modules)
+ GET /dashboard 200 in 92ms
+ ✓ Compiled in 479ms (1249 modules)
+ GET /dashboard 200 in 68ms
+ ✓ Compiled in 472ms (1249 modules)
+ GET /dashboard 200 in 79ms
+ ✓ Compiled in 491ms (1249 modules)
+ GET /dashboard 200 in 62ms
+ GET /dashboard 200 in 82ms
+ GET /review/doc_005 200 in 113ms
+ GET /dashboard 200 in 69ms
+ GET / 200 in 492ms
+ GET /dashboard 200 in 59ms
+ ✓ Compiled in 847ms (1249 modules)
+ GET /dashboard 200 in 145ms
+ ✓ Compiled in 454ms (1249 modules)
+ GET /dashboard 200 in 77ms
+ ✓ Compiled in 626ms (1249 modules)
+ GET /dashboard 200 in 95ms
+ ✓ Compiled in 465ms (1249 modules)
+ GET /dashboard 200 in 58ms
+ ✓ Compiled in 412ms (1249 modules)
+ GET /dashboard 200 in 67ms
+ ✓ Compiled in 398ms (1249 modules)
+ GET /dashboard 200 in 106ms
+ GET /dashboard 200 in 77ms
+ GET /dashboard 200 in 64ms
+ GET /dashboard 200 in 590ms
+ GET /review/doc_012 200 in 113ms
+ GET /dashboard 200 in 67ms
+ GET /review/doc_006 200 in 76ms
+ GET /confirmation/hdr_doc_006_1773934948606 200 in 99ms
+ GET /dashboard 200 in 73ms
+ GET /dashboard 200 in 267ms
+ ✓ Compiled in 828ms (1249 modules)
+ GET /dashboard 200 in 165ms
+ ✓ Compiled in 498ms (1249 modules)
+ GET /dashboard 200 in 112ms
+ ✓ Compiled in 477ms (1249 modules)
+ GET /dashboard 200 in 61ms
+ ✓ Compiled in 610ms (1249 modules)
+ GET /dashboard 200 in 75ms
+ ✓ Compiled in 543ms (1249 modules)
+ GET /dashboard 200 in 66ms
+ ✓ Compiled in 2.1s (1249 modules)
+ GET /dashboard 200 in 263ms
+ ✓ Compiled in 1162ms (1249 modules)
+ GET /dashboard 200 in 1352ms
+ GET /dashboard 200 in 2223ms
+ GET /review/doc_005 200 in 127ms
+ ✓ Compiled in 1124ms (1249 modules)
+ GET /review/doc_005 200 in 547ms
+ GET /confirmation/hdr_doc_005_1773935106658 200 in 122ms
+ GET /dashboard 200 in 97ms
+ ✓ Compiled in 1561ms (1249 modules)
+ GET /dashboard 200 in 325ms
+ GET /review/doc_005 200 in 92ms
+ GET /dashboard 200 in 518ms
+ GET /review/doc_006 200 in 78ms
+ GET /confirmation/hdr_doc_006_1773935172061 200 in 85ms
+ GET /dashboard 200 in 58ms
+ GET /dashboard 200 in 307ms
+ GET /review/doc_007 200 in 76ms
+ GET /dashboard 200 in 60ms
+ GET /dashboard 200 in 55ms
+ GET / 200 in 296ms
+ GET /dashboard 200 in 56ms
+ GET /dashboard 200 in 289ms
+ ✓ Compiled in 2.5s (1249 modules)
+ ✓ Compiled in 848ms (1235 modules)
+ GET /review/doc_007 200 in 268ms
+ ✓ Compiled in 909ms (1235 modules)
+ ✓ Compiled in 2.2s (1249 modules)
+ GET /review/doc_007 200 in 385ms
+ ✓ Compiled in 1394ms (1249 modules)
+ GET /review/doc_007 200 in 244ms
+ GET /confirmation/hdr_doc_007_1773935578353 200 in 91ms
+ GET /dashboard 200 in 94ms
+ GET /dashboard 200 in 497ms
+ ✓ Compiled in 844ms (504 modules)
+ GET /dashboard 200 in 104ms
+ GET /review/doc_005 200 in 86ms
+ GET /review/doc_006 200 in 98ms
+ ✓ Compiled in 2.8s (1249 modules)
+ GET /review/doc_007 200 in 1673ms
+ GET /review/doc_007 200 in 62ms
+ GET /review/doc_007 200 in 78ms
+ ✓ Compiled in 2.1s (1251 modules)
+ GET /review/doc_007 200 in 222ms
+ GET /dashboard 200 in 81ms
+ ✓ Compiled in 3s (1251 modules)
+ GET /dashboard 200 in 2885ms
+ GET /dashboard 200 in 91ms
+ ✓ Compiled in 400ms (505 modules)
+ GET /dashboard 200 in 82ms
+ ✓ Compiled in 2.3s (1251 modules)
+ GET /dashboard 200 in 275ms
+ ✓ Compiled in 346ms (505 modules)
+ GET /dashboard 200 in 86ms
+ ✓ Compiled in 1615ms (1251 modules)
+ GET /dashboard 200 in 176ms
+ ✓ Compiled in 2.4s (1256 modules)
+ GET /dashboard 200 in 232ms
+ ✓ Compiled in 1429ms (1256 modules)
+ GET /dashboard 200 in 224ms
+ ✓ Compiled in 1122ms (1256 modules)
+ GET /dashboard 200 in 185ms
+ ✓ Compiled in 997ms (1256 modules)
+ GET /dashboard 200 in 184ms
+ ✓ Compiled in 1683ms (1256 modules)
+ GET /dashboard 200 in 181ms
+ ✓ Compiled in 1787ms (1256 modules)
+ GET /dashboard 200 in 248ms
+ ✓ Compiled in 609ms (1256 modules)
+ GET /dashboard 200 in 89ms
+ ✓ Compiled in 513ms (1256 modules)
+ GET /dashboard 200 in 59ms
+ ✓ Compiled in 385ms (1256 modules)
+ GET /dashboard 200 in 56ms
+ ✓ Compiled in 409ms (1256 modules)
+ GET /dashboard 200 in 65ms
+ ✓ Compiled in 480ms (1256 modules)
+ GET /dashboard 200 in 63ms
+ ✓ Compiled in 449ms (1256 modules)
+ GET /dashboard 200 in 77ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.1s (1247 modules)
+ GET /dashboard 200 in 2624ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\dashboard\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\dashboard\\page.js',
+  page: '/dashboard'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ GET /review/doc_005 404 in 5805ms
+ GET /review/doc_006 404 in 4811ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\review\[id]\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\review\\[id]\\page.js',
+  page: '/review/doc_006'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\dashboard\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\dashboard\\page.js',
+  page: '/dashboard'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\review\[id]\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\review\\[id]\\page.js',
+  page: '/review/doc_006'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\fallback-build-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\fallback-build-manifest.json'
+}
+ GET /review/doc_006 500 in 1093ms
+ GET /review/doc_006 500 in 361ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\fallback-build-manifest.json'
+}
+ GET / 500 in 774ms
+ GET / 500 in 342ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\fallback-build-manifest.json'
+}
+ GET / 500 in 730ms
+ GET / 500 in 323ms
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: Cannot find module 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\require.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\load-components.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\utils.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\options.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\swc\index.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\yasmi\Documents\TrustDocc\review-ui\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\fallback-build-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\yasmi\\Documents\\TrustDocc\\review-ui\\.next\\fallback-build-manifest.json'
+}
+ GET / 500 in 746ms
+ GET / 500 in 321ms
+ ✓ Compiled in 673ms (1254 modules)
+ ✓ Compiled in 483ms (1254 modules)
+ ✓ Compiled in 3.1s (1249 modules)
+ ✓ Compiled in 608ms (1235 modules)
+ ✓ Compiled in 888ms (1235 modules)
+ ✓ Compiled in 880ms (1235 modules)
+ ✓ Compiled in 786ms (1235 modules)
+ ✓ Compiled in 652ms (1235 modules)
+ ✓ Compiled in 434ms (1235 modules)
+ ✓ Compiled in 5.6s (1249 modules)
+ ✓ Compiled in 1964ms (1249 modules)
+ ✓ Compiled in 1725ms (1249 modules)
+ ✓ Compiled in 1475ms (1249 modules)
+ ✓ Compiled in 1735ms (1249 modules)
+ ⨯ ./app/dashboard/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4mC:\Users\yasmi\Documents\TrustDocc\review-ui\app\dashboard\page.tsx[0m:245:1]
+ [2m242[0m |           </div>
+ [2m243[0m |         </div>
+ [2m244[0m |       </div>
+ [2m245[0m |     </div>
+     : [35;1m     ^^^^^[0m
+ [2m246[0m |   );
+ [2m247[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/dashboard/page.tsx
+ ⨯ ./app/dashboard/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4mC:\Users\yasmi\Documents\TrustDocc\review-ui\app\dashboard\page.tsx[0m:245:1]
+ [2m242[0m |           </div>
+ [2m243[0m |         </div>
+ [2m244[0m |       </div>
+ [2m245[0m |     </div>
+     : [35;1m     ^^^^^[0m
+ [2m246[0m |   );
+ [2m247[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/dashboard/page.tsx
+ ⨯ ./app/dashboard/page.tsx
+Error:   [31mx[0m Unterminated regexp literal
+     ,-[[36;1;4mC:\Users\yasmi\Documents\TrustDocc\review-ui\app\dashboard\page.tsx[0m:245:1]
+ [2m242[0m |           </div>
+ [2m243[0m |         </div>
+ [2m244[0m |       </div>
+ [2m245[0m |     </div>
+     : [35;1m     ^^^^^[0m
+ [2m246[0m |   );
+ [2m247[0m | }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/dashboard/page.tsx
+ ✓ Compiled in 8.9s (1947 modules)
+ ✓ Compiled in 2.7s (1961 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\server-development\1.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\server-development\1.pack.gz'
+
+[1m[33mwarn[39m[22m - The safelist pattern `/risk-(low|medium|high)/` doesn't match any Tailwind CSS classes.
+[1m[33mwarn[39m[22m - Fix this pattern or remove it from your `safelist` configuration.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration#safelisting-classes
+
+[1m[33mwarn[39m[22m - The safelist pattern `/risk-(low|medium|high)/` doesn't match any Tailwind CSS classes.
+[1m[33mwarn[39m[22m - Fix this pattern or remove it from your `safelist` configuration.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration#safelisting-classes
+ ✓ Compiled in 1889ms (882 modules)
+ ✓ Compiled in 326ms (856 modules)
+ ✓ Compiled in 1509ms (1961 modules)
+ ✓ Compiled in 1106ms (1961 modules)
+ ✓ Compiled in 826ms (1959 modules)
+ ✓ Compiled in 730ms (1959 modules)
+ ✓ Compiled in 657ms (1945 modules)
+ ✓ Compiled in 818ms (1959 modules)
+ ✓ Compiled in 1355ms (1959 modules)
+ ✓ Compiled in 1069ms (1959 modules)
+ ✓ Compiled in 435ms (855 modules)
+ ✓ Compiled in 1152ms (1945 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 2.1s (1959 modules)
+ ✓ Compiled in 581ms (1959 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 2.1s (1959 modules)
+ ✓ Compiled in 1150ms (1959 modules)
+ ✓ Compiled in 318ms (855 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 1024ms (1959 modules)
+ ✓ Compiled in 1605ms (1945 modules)
+ ✓ Compiled in 1027ms (1983 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 2.5s (1983 modules)
+ ✓ Compiled in 3.7s (1983 modules)
+ ✓ Compiled in 1023ms (1983 modules)
+ ✓ Compiled in 2.8s (1985 modules)
+ ✓ Compiled in 1317ms (1985 modules)
+ ✓ Compiled in 257ms (868 modules)
+ ✓ Compiled in 321ms (868 modules)
+ ✓ Compiled in 333ms (868 modules)
+ ✓ Compiled in 284ms (868 modules)
+ ✓ Compiled in 281ms (868 modules)
+ ✓ Compiled in 281ms (868 modules)
+ ✓ Compiled in 416ms (868 modules)
+ ✓ Compiled in 420ms (868 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 1927ms (1985 modules)
+ ✓ Compiled in 1581ms (1977 modules)
+ ✓ Compiled in 3.2s (2322 modules)
+ ✓ Compiled in 1138ms (2322 modules)
+ ✓ Compiled in 1390ms (2322 modules)
+ ✓ Compiled in 770ms (2322 modules)
+ ✓ Compiled in 1313ms (2322 modules)
+ ✓ Compiled in 890ms (2322 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: unexpected end of file
+ ✓ Compiled in 2.2s (2322 modules)
+ ✓ Compiled in 848ms (2322 modules)
+ ✓ Compiled in 1166ms (2322 modules)
+ ✓ Compiled in 1752ms (2322 modules)
+ ✓ Compiled in 1081ms (2322 modules)
+ ✓ Compiled in 1608ms (2322 modules)
+ ✓ Compiled in 887ms (2322 modules)
+ ✓ Compiled in 791ms (2322 modules)
+ ✓ Compiled in 1437ms (2322 modules)
+ ✓ Compiled in 2.1s (2322 modules)
+ ✓ Compiled in 849ms (2322 modules)
+ ✓ Compiled in 632ms (2322 modules)
+ ✓ Compiled in 726ms (2322 modules)
+ ✓ Compiled in 1101ms (1033 modules)
+ ✓ Compiled in 916ms (1033 modules)
+ ✓ Compiled in 379ms (1033 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: unexpected end of file
+ ✓ Compiled in 2.4s (2322 modules)
+ ✓ Compiled in 1179ms (2322 modules)
+ ✓ Compiled in 999ms (2322 modules)
+ ✓ Compiled in 1819ms (2308 modules)
+ ✓ Compiled in 635ms (2308 modules)
+ ○ Compiling /_not-found ...
+   Reload env: .env.local
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\yasmi\Documents\TrustDocc\review-ui\.next\cache\webpack\client-development-fallback\0.pack.gz'
