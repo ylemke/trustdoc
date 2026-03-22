@@ -17,6 +17,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { addDecision, addAuditLog } from '../../../../lib/webhook-store';
 import { notifyNewDecision } from '../../../../lib/email.service';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * Compute HMAC-SHA256 of the raw body using the webhook secret.
  * This is scoped entirely to this route — no global parser changes.

@@ -12,6 +12,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { addDecision, addAuditLog } from '../../../../lib/webhook-store';
 import { notifyNewDecision } from '../../../../lib/email.service';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * In production this would query the database for registered webhook API keys.
  * For now, keys are stored in the GENERIC_WEBHOOK_KEYS env var as a comma-separated list.
